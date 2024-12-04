@@ -1,0 +1,8 @@
+# python pythowo.py ./day1/day1_part1.pyowo
+
+pwease tehe = 501
+
+IF tehe == 502 THWEN pwease chan = "tehe is 502!" EWIF tehe == 501 THWEN pwease chan = "
+is 501!" EWSE pwease chan = "tehe is 500!"
+
+pwint(chan)

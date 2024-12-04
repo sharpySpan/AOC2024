@@ -10,3 +10,4 @@ with open('list.txt', 'r') as readfile:
 
 
 print(data)
+
