@@ -1,13 +1,12 @@
-import os
 import re
 
-readfile = open('list.txt', 'r')
+# Open and read the file
+with open('list.txt', 'r') as readfile:
+    # Read the file content
+    content = readfile.read()
+    # Split the content first by '+' then by newlines
+    data = [re.split(r'\n', part) for part in re.split(r'\s+', content)]
 
-split = re.split(r'\n', readfile.read())
 
 
-for line in range(len(split)):
-    split[line] = int(split[line])
-
-
-print(split)
+print(data)
